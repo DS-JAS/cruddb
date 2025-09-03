@@ -9,7 +9,8 @@ app.use(express.json());
 app.use('/api/users', userRoutes);
 
 
-app.listen(5000, '0.0.0.0', () => {
+const PORT = 5000;
+app.listen(PORT, () => {
   console.log("✅ Server running on port 5000");
 });
 
