@@ -11,7 +11,7 @@ app.use('/api/users', userRoutes);
 
 const PORT = 8080;
 app.listen(PORT, () => {
-  console.log("✅ Server running on port 5000");
+  console.log("✅ Server running on port 8080");
 });
 
 
